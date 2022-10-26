@@ -1,0 +1,95 @@
+@font-face {
+    font-family: quicksand;
+    src: url(Quicksand-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: quicksand;
+}
+
+body{
+    background-color: #f5f5f5;
+    color: #fff;
+}
+
+#wrapper{
+    width: 45%;
+    height: 60vh;
+    margin: 30px auto;
+    background-color: #04284e;
+    border-radius: 7px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgb(159, 159, 194);
+}
+
+#wrapper #container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#wrapper #container h2{
+    font-size: 28px;
+    font-weight: 3000;
+    line-height: 30px;
+}
+
+#wrapper #container h2 span{
+    color: green;
+}
+
+#wrapper #container h5{
+    line-height: 30px;
+}
+
+#wrapper #container #mybtn{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(63, 189, 63);
+    color: white;
+    font-weight: 500;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#wrapper #container .result-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row;
+    outline: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+    border-top: .5px solid rgb(170, 165, 165);
+}
+
+#wrapper #container .result-con .result{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #053365;
+    color: rgb(134, 230, 134);
+    width: 45%;
+    height: 35px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px){
+    #wrapper{
+        width: 95%;
+        height: 47vh;
+    }
+    #wrapper #container #mybtn{
+        width: 50%;
+    }
+    #wrapper #container .result-con .result{
+        width: 47%;
+        letter-spacing: 1px;
+    }
+}

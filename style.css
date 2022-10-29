@@ -80,7 +80,7 @@ body{
     letter-spacing: 1px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 320px){
     #wrapper{
         width: 95%;
         height: 47vh;
